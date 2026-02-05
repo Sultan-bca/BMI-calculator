@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form-outbox {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    width:70vw;
+  }
+  
+  .forminbox {
+    background: #ffffff;
+    width: 340px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forminbox h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+  
+    text-align: left; /* ✅ force left alignment */
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+  
+    background-color: #ffffff; /* ✅ white background */
+    color: #000000;            /* ✅ black text */
+  }
+  
+  
+  input:focus {
+    border-color: #4facfe;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4facfe;
+    color: white;
+  }
+  
+  button[type="reset"] {
+    background-color: #e0e0e0;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .result {
+    margin-top: 22px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .result span {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+  }
+
+  /* Chrome, Edge, Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.input {
+    border: 1px solid #ccc;
+  }
+  
+  .input.error {
+    border: 1px solid rgb(226, 88, 88);
+  }
+  
+  
